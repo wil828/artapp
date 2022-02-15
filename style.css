@@ -27,6 +27,10 @@ main {
   /* gap: 50px; */
 }
 
+h1 span {
+  text-transform: capitalize;
+}
+
 @media only screen and (max-width: 1024px) {
   .wrapper {
     grid-template-columns: 1fr;
